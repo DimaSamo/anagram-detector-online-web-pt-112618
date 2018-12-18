@@ -16,7 +16,7 @@ class Anagram
           truth = false unless self.word.include?(char)
         end
       end
+          element if truth
     end
-    element if truth
   end
 end

@@ -7,6 +7,7 @@ class Anagram
   end
 
   def match(words)
+    truth = false
     words.collect do |element|
       truth = false
       if self.word.length == element.length

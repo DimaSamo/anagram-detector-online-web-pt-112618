@@ -15,7 +15,9 @@ class Anagram
         truth = true
         element.split(//).each do |char|
           truth = false unless self.word.include?(char)
-          binding.pry
+        end
+        self.word.split(//).each do |char|
+          truth = false unless element.include?(char)
         end
       end
     element if truth

@@ -17,6 +17,6 @@ class Anagram
         end
       end
           element if truth
-    end
+    end.compact
   end
 end

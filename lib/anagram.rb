@@ -18,7 +18,7 @@ class Anagram
           binding.pry
         end
       end
-          element if truth
+    element if truth
     end.compact
   end
 end
